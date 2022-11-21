@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <title>Assignment 03</title>
+
+    <!-- Cài đặt Bootstrap 5.0 vào trang Web -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+
+  <body>
+    <!-- banner -->
+    <div id="banner" style="padding: 50px">
+      <h1>Nguyễn Tuấn Kiệt</h1>
+      <span>Automotive Engineering</span>
+    </div>
+
+    <!-- navbar -->
+    <section id="nav-bar">
+      <nav class="container">
+        <div class="nav-container">
+          <i class="icon-user"></i>
+          <a href="#about">Thông tin</a>
+        </div>
+
+        <div class="nav-container">
+          <i class="icon-doc-text-inv"></i>
+          <a href="#job-info">Lý lịch</a>
+        </div>
+
+        <div class="nav-container img">
+          <img src="images/avatar.jpg" alt="" />
+        </div>
+
+        <div class="nav-container">
+          <i class="icon-mail-alt"></i>
+          <a href="#certificate">Chứng chỉ</a>
+        </div>
+
+        <div class="nav-container">
+          <i class="icon-star-1"></i>
+          <a href="#project">Dự Án</a>
+        </div>
+      </nav>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="bg-grey">
+      <div class="container px-0 row m-auto">
+        <div id="target" class="col py-5">
+          <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+          <p>
+            Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+            của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí Fullstack
+            Developer, có thể vận dụng những kiến thức đã được trau dồi và không
+            ngừng học hỏi để phát triển bản thân, cũng như hoàn thành tốt nhất
+            công việc được giao.
+          </p>
+        </div>
+        <div id="personal-info" class="col py-5">
+          <h1 class="section-title">Thông tin cá nhân</h1>
+          <ul class="mt-40 info p-0">
+            <li><span>Giới tính</span> : Nam</li>
+            <li><span>Ngày sinh</span> : 11/10/2000</li>
+            <li><span>Điện thoại</span> : (+84) 326609063</li>
+            <li><span>Email</span> : tuankiet9063@gmail.com</li>
+            <li>
+              <span>Địa chỉ</span> : Kha Vạn Cân, Linh Tây, Thủ Đức, Hồ Chí Minh
+            </li>
+            <li><span>Website</span> : https://facebook/tuankiet9063</li>
+          </ul>
+          <div class="about-icon">
+            <i class="icon-twitter"></i>
+            <i class="icon-facebook"></i>
+            <i class="icon-gplus"></i>
+            <i class="icon-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- job info -->
+    <section id="job-info">
+      <div class="container">
+        <div class="d-grid job-items py-4">
+          <div class="job-item border my-3 g-col">
+            <div class="job-header row justify-content-between">
+              <h1 class="col-9">Kinh nghiệm</h1>
+              <i class="ic-toolbox col-3"></i>
+            </div>
+            <div class="job-content">
+              <ul>
+                <li>
+                  Công ty TNHH TM&DV Hyundai Đông Sài Gòn
+                  <div class="job-timeline">
+                    <p class="grey-color"><i>04/2022 - 06/2022</i></p>
+                  </div>
+                  <p class="grey-color">- Phụ giúp KTV sửa chữa chung.</p>
+                  <p class="grey-color">
+                    - Thực hiện các công việc bảo dưỡng nhanh.
+                  </p>
+                </li>
+
+                <li>
+                  Web Designer - Freelancer
+                  <div class="job-timeline">
+                    <p class="grey-color"><i>09/2022 - </i></p>
+                    <p class="timeline-Now">Hiện tại</p>
+                  </div>
+                  <p class="grey-color">
+                    - Thiết kế website dựa trên yêu cầu của khách hàng.
+                  </p>
+                  <p class="grey-color">
+                    - Sử dụng công cụ: Figma, PTS và Canva.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="job-item border my-3 g-col">
+            <div class="job-header row justify-content-between">
+              <h1 class="col-9">Kỹ năng</h1>
+              <i class="ic-tools-2 col-3"></i>
+            </div>
+            <div class="job-content">
+              <div class="level">
+                <span>HTML/CSS - Fundamental</span>
+                <div>
+                  <span class="span-blue"></span>
+                  <span class="span-grey"></span>
+                  <span class="span-grey"></span>
+                </div>
+              </div>
+              <div class="level">
+                <span>C programming language - Fundamental</span>
+                <div>
+                  <span class="span-blue"></span>
+                  <span class="span-grey"></span>
+                  <span class="span-grey"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-item border my-3 g-col">
+            <div class="job-header row justify-content-between">
+              <h1 class="col-9">Ngôn ngữ</h1>
+              <i class="ic-mic col-3"></i>
+            </div>
+            <div class="job-content">
+              <div class="level">
+                <span>Tiếng Anh - TOEIC 600</span>
+                <div>
+                  <span class="span-blue"></span>
+                  <span class="span-blue"></span>
+                  <span class="span-grey"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="job-item border my-3 g-col">
+            <div class="job-header row justify-content-between">
+              <h1 class="col-9">Hoạt động</h1>
+              <i class="ic-toolbox col-3"></i>
+            </div>
+            <div class="job-content">
+              <ul>
+                <li>
+                  Hiến máu tình nguyện
+                  <div class="job-timeline">
+                    <p class="grey-color"><i>04/2021</i></p>
+                  </div>
+                </li>
+
+                <li>
+                  Câu lạc bộ Nghiên cứu khoa học ĐH.SPKT TP.HCM
+                  <div class="job-timeline">
+                    <p class="grey-color"><i>09/2018 - 08/2019</i></p>
+                  </div>
+                  <div>
+                    <p class="grey-color">- Thành viên</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="job-item border my-3 g-col">
+            <div class="job-header row justify-content-between">
+              <h1 class="col-9">Học vấn</h1>
+              <i class="ic-pencil col-3"></i>
+            </div>
+            <div class="job-content">
+              <ul>
+                <li>
+                  Đại học Sư phạm Kỹ thuật TP.HCM
+                  <div class="job-timeline">
+                    <p class="grey-color"><i>08/2018 - 06/2022</i></p>
+                  </div>
+                  <p class="grey-color">
+                    - Chuyên ngành: Công nghệ kỹ thuật ô tô.
+                  </p>
+                  <p class="grey-color">- GPA: 8.0/10.</p>
+                </li>
+
+                <li>
+                  FUNiX
+                  <div class="job-timeline">
+                    <p class="grey-color"><i>09/2022 - </i></p>
+                    <p class="timeline-Now">Hiện tại</p>
+                  </div>
+                  <p class="grey-color">
+                    - Đang theo học chứng chỉ Automotive.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="job-item border my-3 g-col" id="hobby">
+            <div class="job-header row justify-content-between">
+              <h1 class="col-9">Sở thích</h1>
+              <i class="ic-telescope col-3"></i>
+            </div>
+            <div class="job-content">
+              <div class="hobby-icon">
+                <i class="ic-megaphone"></i>
+                <i class="ic-hotairballoon"></i>
+                <i class="ic-strategy"></i>
+                <i class="ic-basket"></i>
+              </div>
+              <div class="hobby-name">
+                <span>Âm nhạc </span>
+                <span> Du lịch</span>
+                <span>Đọc sách </span>
+                <span> Nấu ăn</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- certificate -->
+    <section id="certificate" class="bg-grey">
+      <div class="container">
+        <h1 class="section-title pt-5">Chứng chỉ - Giải thưởng</h1>
+        <div class="container-content">
+          <div class="certificate-items">
+            <div class="certificate-img">
+              <img src="images/Cert_WEB.png" alt="" />
+            </div>
+            <div class="certificate-content">
+              <div class="content-title">
+                <p>CHỨNG CHỈ LẬP TRÌNH WEB - FUNiX</p>
+              </div>
+              <div class="content-content grey-color">
+                <p>- Chứng chỉ thuộc CTDN</p>
+                <p class="m-0">- GPA: 8.5/10</p>
+              </div>
+            </div>
+          </div>
+          <div class="certificate-items">
+            <div class="certificate-img">
+              <img src="images/Cert_PRF.png" alt="" />
+            </div>
+            <div class="certificate-content">
+              <div class="content-title">
+                <p>CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT - FUNiX</p>
+              </div>
+              <div class="content-content grey-color">
+                <p>- Chứng chỉ thuộc CTDN</p>
+                <p class="m-0">- GPA: 8.5/10</p>
+              </div>
+            </div>
+          </div>
+          <div class="certificate-items">
+            <div class="certificate-img">
+              <img src="images/Cert_DBI.png" alt="" />
+            </div>
+            <div class="certificate-content">
+              <div class="content-title">
+                <p>CHỨNG CHỈ LẬP TRÌNH DATABASE - FUNiX</p>
+              </div>
+              <div class="content-content grey-color">
+                <p>- Chứng chỉ thuộc CTDN</p>
+                <p class="m-0">- GPA: 8.5/10</p>
+              </div>
+            </div>
+          </div>
+          <div class="certificate-items">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project -->
+    <section id="project">
+      <div class="container">
+        <h1 class="section-title pt-5">Dự án</h1>
+        <div class="items">
+          <div class="item">
+            <img src="images/project_1.png" alt="" />
+            <div class="project-content">
+              <div class="project-title">
+                <a href="./Project1 Charter.html">CV CÁ NHÂN</a>
+              </div>
+              <div class="project-time-role">
+                <p class="time">2021</p>
+                <div class="FUNiX row">
+                  <i class="icon-user-1 grey-color col">FUNiX</i>
+                  <i class="icon-lamp grey-color col">Developer</i>
+                </div>
+              </div>
+              <div class="project-table">
+                <table>
+                  <tr>
+                    <td class="td-title">Mô tả</td>
+                    <td>
+                      Trang web CV cá nhân Online. Gồm các thông tin cá nhân
+                      cũng như kỹ năng nghề nghiệp
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="td-title">Nhiệm vụ</td>
+                    <td>
+                      - Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td-title">Công nghệ</td>
+                    <td>- HTML, CSS</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/Project_2(1).png" alt="" />
+            <div class="project-content">
+              <div class="project-title">
+                <a href="./Project2 Charter.html"
+                  >NGHIÊN CỨU, THIẾT KẾ MÁY CHẨN ĐOÁN CẦM TAY</a
+                >
+              </div>
+              <div class="project-time-role">
+                <p class="time">2021</p>
+                <div class="FUNiX row">
+                  <i class="icon-user-1 grey-color col">HCMUTE</i>
+                  <i class="icon-lamp grey-color col">Developer</i>
+                </div>
+              </div>
+              <div class="project-table">
+                <table>
+                  <tr>
+                    <td class="td-title">Mô tả</td>
+                    <td>
+                      Sử dụng mạng CAN để giao tiếp với ô tô, thông qua đó tiến
+                      hành thu thập dữ liệu và giải mã các dữ liệu đó để được
+                      các thông số hiện hành và mã lỗi. Sau đó thiết kế phần
+                      cứng và giao diện người dùng để thuận tiện cho việc sử
+                      dụng.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="td-title">Nhiệm vụ</td>
+                    <td>
+                      - Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                      - Thiết kế giao diện người dùng - Vẽ mạch PCB.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td-title">Công nghệ</td>
+                    <td>- Ardruino, HMI UART</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/project_3 (2).png" alt="" />
+            <div class="project-content">
+              <div class="project-title">
+                <a href="./Project3 Charter.html"
+                  >NGHIÊN CỨU, MÔ PHỎNG LANE-KEEPING SYSTEM</a
+                >
+              </div>
+              <div class="project-time-role">
+                <p class="time">2020</p>
+                <div class="FUNiX row">
+                  <i class="icon-user-1 grey-color col">HCMUTE</i>
+                  <i class="icon-lamp grey-color col">Developer</i>
+                </div>
+              </div>
+              <div class="project-table">
+                <table>
+                  <tr>
+                    <td class="td-title">Mô tả</td>
+                    <td>
+                      Sử dụng Arduino Uno làm vi điều khiển chính, camera lấy từ
+                      điện thoại được kết nối với máy tính để thu thập hình ảnh
+                      gửi về và sau đó dùng phần mềm MATLAB Simulink để xử lý
+                      hình ảnh và nhúng vào vi điều khiển để điều khiển động cơ
+                      giúp giữ đúng làn đường được thiết lập.
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="td-title">Nhiệm vụ</td>
+                    <td>
+                      - Phát triển code - Review code - Tối ưu code - Xử lý lỗi
+                      - Thiết kế phân cứng.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="td-title">Công nghệ</td>
+                    <td>- Arduino, MathLAB Simulink</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer" class="bg-grey mt-3">
+      <div class="container">
+        <ul class="mb-0 ps-0">
+          <li>
+            <i class="icon-facebook-circled"><a href="#footer">Facebook</a></i>
+          </li>
+          <li>
+            <i class="icon-linkedin-circled"><a href="#footer">Linkedin</a></i>
+          </li>
+          <li>
+            <i class="icon-github-circled"><a href="#footer">Github</a></i>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

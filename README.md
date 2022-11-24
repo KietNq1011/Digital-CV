@@ -1,1 +1,1 @@
-https://github.com/KietNq1011/Digital-CV.git
+https://kietnq1011.github.io/Digital-CV/
